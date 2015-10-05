@@ -1,0 +1,271 @@
+/* Name: Kosmidou Maria
+ * Project: AM1369cv
+ * Aem: 1369
+ * Version: 1.0
+ */
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    margin: 0px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+h5{
+    font-size: 120%;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 115%;
+    color: gray;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*---------------------------------------------------
+	SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+#headerwrap {
+	background: url(../img/ClassiqueProgramming.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:140px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 270px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	font-size: 80px;
+	color: white;
+}
+
+#headerwrap h3 {
+	font-size: 20px;
+	color: white;
+}
+
+/* Intro Wrap */
+#intro {
+        background: #566573;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+} 
+
+#intro h5, p {
+	color: white;
+}
+
+#intro i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+/* Skills Wrap */
+
+#skillswrap {
+	background: #566573;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+}
+
+#skillswrap h5, p {
+	color: white;
+}
+
+/* Footer Wrap */
+
+#footwrap {
+	background: #2f2f2f;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#footwrap p {
+	color: white;
+}
+
+#footwrap h5 {
+	color: white;
+}
+
+
+#footwrap t {
+	font-weight: 700;
+}
+
+#footwrap i {
+	padding-right: 8px;
+	color: #1abc9c;
+}
+
+/* Copyright Wrap */
+
+#c {
+	background: #222222;
+	padding-top: 15px;
+	text-align: right;
+}
+
+#c p {
+	color: white
+}
+
+
+
+/* Global Values */
+
+.desc {
+	padding-top: 50px;
+}
+
+.desc p {
+	color: #2f2f2f;
+}
+
+.desc t {
+	color: #34495e;
+	font-weight: 700;
+}
+
+.desc imp {
+	padding: 6px;
+	color: white;
+	background: #34495e;
+}
+
+.desc more {
+	color: #95a5a6;
+}
+
+
+sm {
+	font-size: 12px;
+}
+
+/*Kukliki eikona*/
+
+.circular {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	background: url(../img/me1.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+#columns {
+    margin:0px auto; 
+    width:70%;
+}
